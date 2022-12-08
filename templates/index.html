@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Creator
+{% endblock %}
+
+{% block main %}
+<form action="/button" method="POST">
+    <button>CLIQUE AQUI PARA GERAR SEU JOGO PREMIADO!</button>
+</form>
+<br>
+    <font size="+3"><b>{{msg}}</b></font>
+</br>
+{% endblock %}

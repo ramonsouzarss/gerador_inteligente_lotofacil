@@ -1,0 +1,37 @@
+/* Size for brand */
+nav .navbar-brand
+{
+    font-size: xx-large;
+}
+
+/* Colors for brand */
+nav .navbar-brand .blue
+{
+    color: #8b008b;
+}
+
+/* Background Image */
+body
+{
+    height: 100%;
+    margin: 0;
+}
+
+.bg
+{
+    background-image: url("1000reais.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: transparent;
+}
+
+footer
+{}
+
+.ftcolor
+{
+    color: #8b008b;
+    font-weight: bold;
+}
